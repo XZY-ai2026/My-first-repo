@@ -1,0 +1,12 @@
+#BIM计算器--健康判断
+weight=float(input("你的体重(kg)"))
+height=float(input("你的身高(m)"))
+bmi=weight/height ** 2
+print(f"你的BMI:{bmi:.1f}")
+if bmi < 18.5:
+    print("偏瘦，多吃")
+elif bmi < 24.0:
+    print("合格，保持")
+else:
+    print("超重，减肥")
+    
