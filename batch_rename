@@ -1,0 +1,8 @@
+# W12周六：批量重命名 v1 —— 在测试文件夹上试跑
+from pathlib import Path
+
+folder = Path("C:/Users/sjsis/Desktop/test_photos")   # Windows 路径用正斜杠
+for i, f in enumerate(folder.iterdir()):
+    if f.is_file():
+        f.rename(folder / f"{i:03d}_{f.name}")   # / 是拼路径，{i:03d} 是补零编号
+print("重命名完成")
