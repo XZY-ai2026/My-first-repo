@@ -35,9 +35,9 @@ SCENE_LENGTH = 6.0
 TRANSITION_TIME = 1.45
 
 # 在这里直接改名字也可以，无需加命令行参数。
-DEFAULT_NAME = "阿波"
-DEFAULT_SUFFIX = "有点说法"
-DEFAULT_MESSAGE = "祝你开心"
+DEFAULT_NAME = "马腾飞"
+DEFAULT_SUFFIX = "臭卤"
+DEFAULT_MESSAGE = "就认吃"
 
 
 def smoothstep(value):
